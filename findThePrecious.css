@@ -1,0 +1,172 @@
+body {
+	width: 75%;
+	margin: auto;
+}
+
+.carousel {
+	height:25vw;
+}
+
+.imgCarous {
+	height:25vw;
+}
+
+h1 {
+	font-size: 1.2em;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h2 span {
+	font-size: 0.75em;
+	font-weight: normal;
+}
+
+.mask {
+	text-align: center;
+	height: 21vw;
+	min-height: 200px;
+}
+
+.imgFellows {
+	height: 100%;
+	width: 100%;
+	opacity: 0.7;
+	z-index: 1;
+	object-fit: cover;
+}
+
+.mask:hover .imgFellows {
+	opacity: 1;
+	z-index: 1;
+}
+
+
+.imgDeadFellows {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	/*object-position: center;*/
+}
+
+.dead {
+	font-size: 1.8em;
+	font-weight: bold;
+	color: red;
+}
+
+
+
+
+.reward {
+	position: absolute;
+	top: 2vw;
+	left: 3vw;
+	border:1px solid white;
+	border-radius: 5px 5px 5px 5px;	
+	text-align: center;
+	font-size: 1.1em;
+	background-color: rgba(255,255,255,0.8);
+}
+
+.rewardValue {
+	color: #F2741F;
+	font-weight: bold;
+}
+
+.mask:hover .reward {
+	display: none;
+}
+
+
+.nameFellows {
+	position: absolute;
+	bottom: 10vw;
+	left: 6vw;
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	z-index: 2;
+}
+
+
+.mask:hover .nameFellows {
+
+	position: absolute;
+	bottom: 8vw;
+	left: 7vw;
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	z-index: 2;
+}
+.fellowsDescription {
+	padding-bottom: 0px;
+}
+
+
+.float {
+	float: right;
+	width: 20%;
+}
+
+.card {
+	border: none;
+}
+
+hr {
+	border: solid 1px black;
+}
+
+.imgProfileContainer {
+	height: 5vw;
+	width: 5vw;
+	margin-right: 0.5vw;
+}
+
+.imgProfile {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.profile {
+	text-decoration: underline;
+}
+
+.pouce {
+	width: 5%;
+}
+
+.dark {
+	background-color: #303030;
+	color: white;
+}
+
+.light {
+	background-color: #9E9E9E;
+}
+
+.playerNameCitation {
+	color: grey;
+}
+
+.card-header {
+	font-weight: bold;
+}
+
+.imgGol {
+	/*height: 50%;*/
+	width: 10%;
+}
+
+.floatLeft {
+	float: left;
+	width: 30%;
+	padding-right: 1vw;
+}
