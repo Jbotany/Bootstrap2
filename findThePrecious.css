@@ -3,6 +3,17 @@ body {
 	margin: auto;
 }
 
+
+.navColors {
+	background-color: #F2741F;
+}
+
+.navColors a {
+	color: white;
+	text-align: left;
+}
+
+
 .carousel {
 	height:25vw;
 }
@@ -14,6 +25,7 @@ body {
 h1 {
 	font-size: 1.2em;
 	margin-bottom: 0px;
+	display: none;
 }
 
 h2 {
