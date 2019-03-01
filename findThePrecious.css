@@ -1,7 +1,12 @@
 @font-face {
-    font-family: 'Anironc';
+    font-family: 'navbarFont';
     src: url('font/anicm___.ttf');
-    }   
+    }  
+
+@font-face {
+    font-family: 'titleFonts';
+    src: url('font/partybusiness.ttf');
+    }  
 
 
 body {
@@ -17,15 +22,41 @@ body {
 .navColors a {
 	color: white;
 	text-align: left;
-	font-family: 'Anironc';
+	font-family: 'navbarFont';
 }
 
-.test {
-	font-family: 'Anironc';
+.active a::after {
+	border-bottom: solid 1px;
 }
+
+/*
+
+This happened because of your positioning.
+
+Try to set relative position to your li and set after to a tag inside li which will be absolute positioned like below
+
+.navbar-nav > li {
+  float: left;
+  position: relative;
+}
+.navbar-light .navbar-nav .active a::after {
+  border-bottom: 5px solid #5bc0eb;
+  bottom: -10px;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+Hope it helps.
+*/
 
 .carousel {
 	height:25vw;
+}
+
+.carousel h5, p {
+	font-family: 'titleFonts';
 }
 
 .imgCarous {
