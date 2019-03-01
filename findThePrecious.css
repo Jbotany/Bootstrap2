@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Anironc';
+    src: url('font/anicm___.ttf');
+    }   
+
+
 body {
 	width: 75%;
 	margin: auto;
@@ -11,8 +17,12 @@ body {
 .navColors a {
 	color: white;
 	text-align: left;
+	font-family: 'Anironc';
 }
 
+.test {
+	font-family: 'Anironc';
+}
 
 .carousel {
 	height:25vw;
