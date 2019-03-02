@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'navbarFont';
+    src: url('font/anicm___.ttf');
+    }  
+
+@font-face {
+    font-family: 'titleFonts';
+    src: url('font/partybusiness.ttf');
+    }  
+
+
 body {
 	width: 75%;
 	margin: auto;
@@ -11,15 +22,55 @@ body {
 .navColors a {
 	color: white;
 	text-align: left;
+	font-family: 'navbarFont';
 }
+
+/*.active a::after {
+	border-bottom: solid 1px;
+}*/
+
+
+
+.navbar-nav > li {
+  position: relative;
+  left: 5vw;
+}
+.navbar-nav .nav-item .active a::after {
+  border-bottom: 5px solid #5bc0eb;
+  bottom: -10px;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+Hope it helps.
 
 
 .carousel {
 	height:25vw;
 }
 
+.carousel h3 {
+	font-size: 4em;
+}
+
+.carousel p {
+	font-size: 2em;
+}
+
+.carousel h3, .carousel p {
+	font-family: 'titleFonts';
+	position: relative;
+	bottom: 7vw;
+}
+
 .imgCarous {
 	height:25vw;
+}
+
+.carousMargin {
+	padding-left: 10vw;
 }
 
 h1 {
