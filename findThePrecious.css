@@ -44,8 +44,6 @@ body {
   right: 0;
 }
 
-Hope it helps.
-
 
 .carousel {
 	height:25vw;
@@ -69,10 +67,6 @@ Hope it helps.
 	height:25vw;
 }
 
-.carousMargin {
-	padding-left: 10vw;
-}
-
 h1 {
 	font-size: 1.2em;
 	margin-bottom: 0px;
@@ -87,6 +81,10 @@ h2 {
 h2 span {
 	font-size: 0.75em;
 	font-weight: normal;
+}
+
+.fellows {
+	font-family: 'navbarFont';
 }
 
 .mask {
