@@ -35,7 +35,7 @@ body {
   position: relative;
   left: 5vw;
 }
-.navbar-nav .nav-item .nav-link .active a::after {
+.navbar-nav .nav-item .active a::after {
   border-bottom: 5px solid #5bc0eb;
   bottom: -10px;
   content: " ";
@@ -51,12 +51,26 @@ Hope it helps.
 	height:25vw;
 }
 
-.carousel h5, p {
+.carousel h3 {
+	font-size: 4em;
+}
+
+.carousel p {
+	font-size: 2em;
+}
+
+.carousel h3, .carousel p {
 	font-family: 'titleFonts';
+	position: relative;
+	bottom: 7vw;
 }
 
 .imgCarous {
 	height:25vw;
+}
+
+.carousMargin {
+	padding-left: 10vw;
 }
 
 h1 {
