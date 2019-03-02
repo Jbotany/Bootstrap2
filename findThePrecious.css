@@ -29,17 +29,13 @@ body {
 	border-bottom: solid 1px;
 }
 
-/*
 
-This happened because of your positioning.
-
-Try to set relative position to your li and set after to a tag inside li which will be absolute positioned like below
 
 .navbar-nav > li {
   float: left;
   position: relative;
 }
-.navbar-light .navbar-nav .active a::after {
+.navbar-nav .nav-item .nav-link .active a::after {
   border-bottom: 5px solid #5bc0eb;
   bottom: -10px;
   content: " ";
@@ -49,7 +45,7 @@ Try to set relative position to your li and set after to a tag inside li which w
 }
 
 Hope it helps.
-*/
+
 
 .carousel {
 	height:25vw;
