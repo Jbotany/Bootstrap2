@@ -132,18 +132,29 @@ h2 span {
 	font-size: 1.8em;
 	font-weight: bold;
 	color: #F2741F;
-	text-decoration: line-through;
 }
 
+.gimliBarre {
+	color: #F2741F;
+}
 
+.gimli {
+	text-decoration: line-through;
+	color: white;
+}
+
+/*<span style="color:red;text-decoration:line-through;"><span style="color:black;">Je suis écrit en noir et barré en rouge</span></span>
+
+*/
 
 
 .reward {
 	position: absolute;
-	top: 2vw;
-	left: 3vw;
+	top: 1vw;
+	left: 1.7vw;
 	border:1px solid white;
 	border-radius: 5px 5px 5px 5px;	
+	width: 90%;
 	text-align: center;
 	font-size: 1.5em;
 	background-color: rgba(255,255,255,0.8);
@@ -162,13 +173,13 @@ h2 span {
 
 .nameFellows {
 	position: absolute;
-	bottom: 10vw;
-	left: 6vw;
+	bottom: 50%;
+	left: 38%;
 	color: white;
-	text-align: center;
-	font-size: 1.5em;
+	font-size: 2em;
 	font-weight: bold;
 	z-index: 2;
+	font-family: 'titleFont';
 }
 
 
