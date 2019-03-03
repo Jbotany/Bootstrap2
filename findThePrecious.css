@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'navbarFont';
+    font-family: 'textFont';
     src: url('font/anicm___.ttf');
     }  
 
 @font-face {
-    font-family: 'titleFonts';
+    font-family: 'titleFont';
     src: url('font/partybusiness.ttf');
     }  
 
@@ -27,24 +27,9 @@ body {
 .navColors a {
 	color: white;
 	text-align: left;
-	font-family: 'navbarFont';
+	font-family: 'textFont';
 }
 
-
-
-
-.navbar-nav > li {
-  position: relative;
-  left: 5vw;
-}
-.navbar-nav .nav-item .active a::after {
-  border-bottom: 5px solid #5bc0eb;
-  bottom: -10px;
-  content: " ";
-  left: 0;
-  position: absolute;
-  right: 0;
-}
 
 
 .carousel {
@@ -60,7 +45,7 @@ body {
 }
 
 .carousel h3, .carousel p {
-	font-family: 'titleFonts';
+	font-family: 'titleFont';
 	position: relative;
 	bottom: 7vw;
 }
@@ -86,7 +71,7 @@ h2 span {
 }
 
 .fellows {
-	font-family: 'navbarFont';
+	font-family: 'textFont';
 }
 
 .underLine {
@@ -94,8 +79,27 @@ h2 span {
 }
 
 .symbol {
-	font-family: symbolFont;
+	font-family: 'symbolFont';
 	color: #F2741F;
+}
+
+.pillFont {
+	font-family: 'textFont';
+}
+
+.pillFont a {
+	color: black;
+}
+
+#pillActiveColor {
+	color: #F2741F;
+	/*text-decoration: underline;*/
+	border-bottom: solid 3px #F2741F;
+}
+
+.symbolPill {
+	font-family: 'titleFont';
+	font-size: 1.5em;
 }
 
 .mask {
@@ -122,7 +126,6 @@ h2 span {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-	/*object-position: center;*/
 }
 
 .dead {
@@ -142,8 +145,9 @@ h2 span {
 	border:1px solid white;
 	border-radius: 5px 5px 5px 5px;	
 	text-align: center;
-	font-size: 1.1em;
+	font-size: 1.5em;
 	background-color: rgba(255,255,255,0.8);
+	font-family: 'titleFont';
 }
 
 .rewardValue {
@@ -178,6 +182,7 @@ h2 span {
 	font-size: 1em;
 	z-index: 2;
 }
+
 .fellowsDescription {
 	padding-bottom: 0px;
 }
@@ -190,6 +195,13 @@ h2 span {
 
 .card {
 	border: solid 4px black;
+}
+
+.cardBG {
+	background-color: black;
+	color: grey;
+	font-size: 1.6em;
+	font-family: 'titleFont';
 }
 
 hr {
