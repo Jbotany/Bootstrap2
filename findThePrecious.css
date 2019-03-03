@@ -96,7 +96,6 @@ h2 span {
 .symbol {
 	font-family: symbolFont;
 	color: #F2741F;
-	/*font-weight: bold;*/
 }
 
 .mask {
@@ -129,7 +128,8 @@ h2 span {
 .dead {
 	font-size: 1.8em;
 	font-weight: bold;
-	color: red;
+	color: #F2741F;
+	text-decoration: line-through;
 }
 
 
@@ -189,7 +189,7 @@ h2 span {
 }
 
 .card {
-	border: none;
+	border: solid 4px black;
 }
 
 hr {
