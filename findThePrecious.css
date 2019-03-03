@@ -8,6 +8,11 @@
     src: url('font/partybusiness.ttf');
     }  
 
+@font-face {
+    font-family: 'symbolFont';
+    src: url('font/tnganb.ttf');
+    }
+
 
 body {
 	width: 75%;
@@ -25,9 +30,6 @@ body {
 	font-family: 'navbarFont';
 }
 
-/*.active a::after {
-	border-bottom: solid 1px;
-}*/
 
 
 
@@ -85,6 +87,16 @@ h2 span {
 
 .fellows {
 	font-family: 'navbarFont';
+}
+
+.underLine {
+	border-bottom: solid 2px white;
+}
+
+.symbol {
+	font-family: symbolFont;
+	color: #F2741F;
+	/*font-weight: bold;*/
 }
 
 .mask {
