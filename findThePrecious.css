@@ -30,8 +30,6 @@ body {
 	font-family: 'textFont';
 }
 
-
-
 .carousel {
 	height:25vw;
 }
@@ -93,7 +91,6 @@ h2 span {
 
 #pillActiveColor {
 	color: #F2741F;
-	/*text-decoration: underline;*/
 	border-bottom: solid 3px #F2741F;
 }
 
@@ -136,17 +133,13 @@ h2 span {
 
 .gimliBarre {
 	color: #F2741F;
+	text-decoration: line-through
 }
 
 .gimli {
-	text-decoration: line-through;
+;
 	color: white;
 }
-
-/*<span style="color:red;text-decoration:line-through;"><span style="color:black;">Je suis écrit en noir et barré en rouge</span></span>
-
-*/
-
 
 .reward {
 	position: absolute;
