@@ -1,12 +1,17 @@
 @font-face {
-    font-family: 'navbarFont';
+    font-family: 'textFont';
     src: url('font/anicm___.ttf');
     }  
 
 @font-face {
-    font-family: 'titleFonts';
+    font-family: 'titleFont';
     src: url('font/partybusiness.ttf');
     }  
+
+@font-face {
+    font-family: 'symbolFont';
+    src: url('font/tnganb.ttf');
+    }
 
 
 body {
@@ -22,30 +27,8 @@ body {
 .navColors a {
 	color: white;
 	text-align: left;
-	font-family: 'navbarFont';
+	font-family: 'textFont';
 }
-
-/*.active a::after {
-	border-bottom: solid 1px;
-}*/
-
-
-
-.navbar-nav > li {
-  position: relative;
-  left: 5vw;
-}
-.navbar-nav .nav-item .active a::after {
-  border-bottom: 5px solid #5bc0eb;
-  bottom: -10px;
-  content: " ";
-  left: 0;
-  position: absolute;
-  right: 0;
-}
-
-Hope it helps.
-
 
 .carousel {
 	height:25vw;
@@ -60,17 +43,13 @@ Hope it helps.
 }
 
 .carousel h3, .carousel p {
-	font-family: 'titleFonts';
+	font-family: 'titleFont';
 	position: relative;
 	bottom: 7vw;
 }
 
 .imgCarous {
 	height:25vw;
-}
-
-.carousMargin {
-	padding-left: 10vw;
 }
 
 h1 {
@@ -87,6 +66,37 @@ h2 {
 h2 span {
 	font-size: 0.75em;
 	font-weight: normal;
+}
+
+.fellows {
+	font-family: 'textFont';
+}
+
+.underLine {
+	border-bottom: solid 2px white;
+}
+
+.symbol {
+	font-family: 'symbolFont';
+	color: #F2741F;
+}
+
+.pillFont {
+	font-family: 'textFont';
+}
+
+.pillFont a {
+	color: black;
+}
+
+#pillActiveColor {
+	color: #F2741F;
+	border-bottom: solid 3px #F2741F;
+}
+
+.symbolPill {
+	font-family: 'titleFont';
+	font-size: 1.5em;
 }
 
 .mask {
@@ -113,27 +123,35 @@ h2 span {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-	/*object-position: center;*/
 }
 
 .dead {
 	font-size: 1.8em;
 	font-weight: bold;
-	color: red;
+	color: #F2741F;
 }
 
+.gimliBarre {
+	color: #F2741F;
+	text-decoration: line-through
+}
 
-
+.gimli {
+;
+	color: white;
+}
 
 .reward {
 	position: absolute;
-	top: 2vw;
-	left: 3vw;
+	top: 1vw;
+	left: 1.7vw;
 	border:1px solid white;
 	border-radius: 5px 5px 5px 5px;	
+	width: 90%;
 	text-align: center;
-	font-size: 1.1em;
+	font-size: 1.5em;
 	background-color: rgba(255,255,255,0.8);
+	font-family: 'titleFont';
 }
 
 .rewardValue {
@@ -148,13 +166,13 @@ h2 span {
 
 .nameFellows {
 	position: absolute;
-	bottom: 10vw;
-	left: 6vw;
+	bottom: 50%;
+	left: 38%;
 	color: white;
-	text-align: center;
-	font-size: 1.5em;
+	font-size: 2em;
 	font-weight: bold;
 	z-index: 2;
+	font-family: 'titleFont';
 }
 
 
@@ -168,6 +186,7 @@ h2 span {
 	font-size: 1em;
 	z-index: 2;
 }
+
 .fellowsDescription {
 	padding-bottom: 0px;
 }
@@ -179,7 +198,14 @@ h2 span {
 }
 
 .card {
-	border: none;
+	border: solid 4px black;
+}
+
+.cardBG {
+	background-color: black;
+	color: grey;
+	font-size: 1.6em;
+	font-family: 'titleFont';
 }
 
 hr {

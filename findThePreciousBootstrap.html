@@ -25,7 +25,7 @@
 					<div class="collapse navbar-collapse" id="navbarText">
 						<ul class="navbar-nav mr-auto">
 							<li class="nav-item active">
-								<a class="nav-link" href="#fellows">Fellows  |<span class="sr-only">(current)</span></a>
+								<a class="nav-link underLine" href="#fellows">Fellows  |<span class="sr-only">(current)</span></a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#ring">The Ring  |</a>
@@ -62,7 +62,7 @@
 										<h3>Sauron is a very good Bro,</h3>
 									</div>
 								</div>
-								<div class="row justify-content-center space-around no-gutters carouMargin">
+								<div class="row justify-content-center space-around no-gutters">
 									<div class="col-6 offset-1">
 										<p>Please, help him to find is ring !</p>
 									</div>
@@ -102,18 +102,17 @@
 <!-- SECTION FELLOWS -->
 
 			<section>			
-				<h2 id="fellows">Fellows wanted dead <span>(or alive if you want to eat them later)</span> </h2>
+				<h2 id="fellows" class="fellows"> <span class="symbol"> ij </span>  Fellows wanted dead <span>(or alive if you want to eat them later)</span>  <span class="symbol">ij</span> </h2>
 				<br>
 
-				<nav class="nav nav-pills flex-column flex-sm-row">
-					<a class="flex-sm-fill text-sm-center nav-link active bg-dark" href="#">Most wanted</a>
-					<a class="flex-sm-fill text-sm-center nav-link bg-light" href="#">Most dangerous</a>
-					<a class="flex-sm-fill text-sm-center nav-link bg-light" href="#">Already captured</a>
+				<nav class="nav nav-pills flex-column flex-sm-row pillFont col-8 offset-2">
+					<a class="flex-sm-fill text-sm-center nav-link" href="#">Most wanted</a>
+					<a class="flex-sm-fill text-sm-center nav-link" id="pillActiveColor" href="#"><span class="symbolPill">w</span> Most dangerous <span class="symbolPill">w</span></a>
+					<a class="flex-sm-fill text-sm-center nav-link" href="#">Already captured</a>
 				</nav>
 				<br>
 
-				<!-- CARDS FELLOWS -->					
-
+				<!-- CARDS FELLOWS -->	
 
 				
 					<div class="row justify-content-center">
@@ -123,49 +122,50 @@
 									<img src="http://images.innoveduc.fr/integration_gandalf.png" class="card-img-top imgFellows center-block" alt="Profile">
 									<div class="row reward">
 										<div class="col-10">
-											<div> Reward : <span class="rewardValue">1000</span> gold coins</div> 
+											<div> <p> Reward </p> <p><span class="rewardValue">1000</span> gold coins</p></div> 
 										</div>
 									</div>									
 									<div class="nameFellows">Gandalf</div>
 								</div>
-								<div class="card-body">
-									<h5 class="card-title">The Wizard</h5>
+								<div class="card-body cardBG">
 									<p class="card-text">A very dangerous wizard, Balrog killer</p>
 								</div>
 							</div>
 						</div>
+						
 						<div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 col-xl-3">
 							<div class="card">
 								<div class="mask">
-									<img src="https://vignette.wikia.nocookie.net/middlearthfilmseries/images/5/50/BalinBOFA.png/revision/latest?cb=20180218215635" alt="Profile" class="imgDeadFellows center-block"/>
-									<div class="card-img-overlay dead">									
-											<p class="card-text dead">DEAD</p>
-									
+									<img src="pictures/aragorn.png" class="card-img-top imgFellows center-block" alt="Profile">
+									<div class="row reward">
+										<div class="col-10 offset-1">
+											<div> <p>Reward</p> <p> <span class="rewardValue">850</span> gold coins</p></div> 
+										</div>
 									</div>									
+									<div class="nameFellows">Aragorn</div>
 								</div>
-								<div class="card-body">
-									<h5 class="card-title">Balin</h5>
-									<p class="card-text">Small description...</p>
+								<div class="card-body cardBG">
+									<p class="card-text">Sauron's finger says him his sword is dangerous...</p>
 								</div>
 							</div>
 						</div>
+
 						<div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 col-xl-3">
 							<div class="card">
 								<div class="mask">
-									<img src="https://i.pinimg.com/236x/65/8f/5d/658f5db3b7aaac7504addd46af70587f--thats-entertainment-lotr-trilogy.jpg?b=t" class="card-img-top imgFellows center-block" alt="Profile">
-									<div class="row reward">
-										<div class="col-10 offset-1">
-											<div> Reward : <span class="rewardValue">250</span> gold coins</div> 
-										</div>
-									</div>									
-									<div class="nameFellows">Hobbit</div>
+									<img src="pictures/gimli.png" alt="Profile" class="imgDeadFellows center-block"/>
+									<div class="card-img-overlay dead">									
+											<p class="card-text dead">DEAD</p>
+									
+									</div>	
+									<div class="nameFellows"><span class="gimliBarre"> <span class="gimli"> Gimli </span> </span> </div>								
 								</div>
-								<div class="card-body">
-									<h5 class="card-title">Hobbit #3</h5>
-									<p class="card-text">Small description...</p>
+								<div class="card-body cardBG">
+									<p class="card-text">A dwarf, with a beard and an axe</p>
 								</div>
 							</div>
-						</div>					
+						</div>
+											
 						
 					</div>
 
