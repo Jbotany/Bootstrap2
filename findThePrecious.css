@@ -73,7 +73,7 @@ h2 span {
 }
 
 .underLine {
-	border-bottom: solid 2px white;
+	text-decoration: underline;
 }
 
 .symbol {
@@ -99,10 +99,14 @@ h2 span {
 	font-size: 1.5em;
 }
 
+/*.card {
+	min-width: 100px;
+}*/
+
 .mask {
 	text-align: center;
 	height: 21vw;
-	min-height: 200px;
+	min-height: 300px;
 }
 
 .imgFellows {
