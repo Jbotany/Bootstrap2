@@ -147,8 +147,8 @@ h2 span {
 
 .reward {
 	position: absolute;
-	top: 1vw;
-	left: 1.7vw;
+	top: 1%;
+	left: 10%;
 	border:1px solid white;
 	border-radius: 5px 5px 5px 5px;	
 	width: 90%;
@@ -171,7 +171,7 @@ h2 span {
 .nameFellows {
 	position: absolute;
 	bottom: 50%;
-	left: 38%;
+	left: 35%;
 	color: white;
 	font-size: 2em;
 	font-weight: bold;
@@ -183,8 +183,8 @@ h2 span {
 .mask:hover .nameFellows {
 
 	position: absolute;
-	bottom: 8vw;
-	left: 7vw;
+	bottom: 35%;
+	left: 40%;
 	color: white;
 	text-align: center;
 	font-size: 1em;
