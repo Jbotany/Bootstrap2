@@ -68,6 +68,15 @@ h2 span {
 	font-weight: normal;
 }
 
+section {
+	padding-top: 2%;
+}
+
+.sectionFellows {
+	background-color: lightgrey;
+}
+
+
 .fellows {
 	font-family: 'textFont';
 }
@@ -99,9 +108,6 @@ h2 span {
 	font-size: 1.5em;
 }
 
-/*.card {
-	min-width: 100px;
-}*/
 
 .mask {
 	text-align: center;
